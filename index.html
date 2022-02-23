@@ -2,10 +2,14 @@
 <html>
 <head>
     <meta charset="utf-8" />
-    <title>Curso de JavaScript</title>
+    <title>Pizzaria</title>
     <link rel="stylesheet" href="assets/css/style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9fe314a765.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Hepta+Slab:400,700|Lato:400,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet"> 
 </head>
 <body>
 
@@ -32,16 +36,49 @@
 
     <header>
 
-        <div class="logo">Pizzaria Do Seu Joaquin</div>
-        <div class="carrinho"><span>0</span>🛒</div>
+        <div class="logo"><i class="fa-solid fa-pizza-slice"></i> Pizzaria Do Seu Joaquin</div>
+        <div class="carrinho"><span>0</span><i class="fa-solid fa-cart-shopping"></i></div>
 
     </header>
 
     <div class="init">
 
-        <h2>Bem-Vindo</h2>
-        <p>Onde a pizza conquista você</p>
-        <a href="#"> Fazer Pedido</a>
+        <h2 class="init--tittle">Bem-Vindo</h2>
+        <p class="init--slogan">Onde a pizza conquista você</p>
+        <a href="#" class="init--btn"> Fazer Pedido</a>
+
+    </div>
+
+    <div class="service">
+
+        <div class="service--content">
+
+            <h2 class="service--tittle">Nossos Serviços</h2>
+            <div>
+    
+                <div class="servicos">
+                    <p><i class="fa-solid fa-truck"></i></p>
+                    <h2>Entrega Rapida</h2>
+                    <p>Texto aleatoria que possui um pouco mais que uma linha</p>
+                </div>
+                
+                <div class="servicos">
+                    <p><i class="fa-solid fa-pizza-slice"></i></p>
+                    <h2>Comida Deliciosa</h2>
+                    <p>Texto aleatoria que possui um pouco mais que uma linha</p>
+                </div>
+    
+                
+                <div class="servicos">
+                    <p><i class="fa-solid fa-hand-holding-dollar"></i></p>
+                    <h2>Bom Preço</h2>
+                    <p>Texto aleatoria que possui um pouco mais que uma linha</p>
+                </div>
+                
+            </div>
+
+        </div>
+
 
     </div>
 
@@ -52,7 +89,7 @@
 
     <aside>
         <div class="cart--area">
-            <div class="menu-closer">❌</div>
+            <div class="menu-closer"><i class="fa-solid fa-xmark"></i></div>
             <h1>Suas Pizzas</h1>
             <div class="cart"></div>
             <div class="cart--details">
